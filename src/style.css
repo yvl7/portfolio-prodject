@@ -1,3 +1,25 @@
-h1 {
-    font-family: 'Changa', sans-serif;
+:root {
+    --background-color: #faf8f1;
+    --text-color: #414141;
+    --main-font: 'Urbanist', sans-serif;
+    --heding-font: 'Changa', sans-serif;
+    --button-font: 'Aboreto', cursive;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+h1,h2 {
+    font-family: var(--heding-font);
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.greet {
+    font-size: 24px;
 }
