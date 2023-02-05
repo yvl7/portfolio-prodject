@@ -13,6 +13,23 @@ body {
 
 h1,h2 {
     font-family: var(--heding-font);
+    font-stretch: 150%;
+    letter-spacing: 2px;
+}
+
+i {
+    font-size: 30px;
+    transition: font-size 1s;
+}
+
+i:hover {
+    font-size: 50px;
+}
+
+.block-technologie {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
 }
 
 .hero {
@@ -22,4 +39,30 @@ h1,h2 {
 
 .greet {
     font-size: 24px;
+}
+
+.container p,
+.container h3,
+.container h4 {
+    text-align: right;
+}
+
+.container img {
+    filter: grayscale(95%) contrast(150%) brightness(100%);
+    transition: filter 0.4s; 
+}
+
+.container img:hover {
+    filter: none;
+    
+}
+
+.double-prodject p,
+.double-prodject h3,
+.double-prodject h4 {
+    text-align: left;
+}
+
+.prodject-description a {
+    text-align: center;
 }
