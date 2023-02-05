@@ -49,12 +49,20 @@ i:hover {
 
 .container img {
     filter: grayscale(95%) contrast(150%) brightness(100%);
-    transition: filter 0.4s; 
+    transition: filter 0.3s; 
 }
 
-.container img:hover {
+
+.first-pr:hover img {
     filter: none;
-    
+}
+
+.second-pr:hover img {
+    filter: none;
+}
+
+.thidth-pr:hover img {
+    filter: none;
 }
 
 .double-prodject p,
