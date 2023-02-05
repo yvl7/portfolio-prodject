@@ -13,7 +13,6 @@ body {
 
 h1,h2 {
     font-family: var(--heding-font);
-    font-stretch: 150%;
     letter-spacing: 2px;
 }
 
@@ -31,6 +30,7 @@ i:hover {
     justify-content: space-evenly;
     align-items: baseline;
 }
+
 
 .hero {
     text-align: center;
@@ -65,4 +65,32 @@ i:hover {
 
 .prodject-description a {
     text-align: center;
+}
+
+
+@media (max-width: 720px) {
+    .hero {
+        padding: 40px 5px;
+    }
+
+    .greet {
+        font-size: 18px;
+    }
+
+    .container p,
+    .container h3,
+    .container h4 {
+         text-align: center;
+    }
+
+    a {
+       display: block;
+       margin: 0 auto;
+    }
+
+    .prodject-description {
+        border: none;
+    }
+
+
 }
