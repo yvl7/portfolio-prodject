@@ -25,10 +25,35 @@ i:hover {
     font-size: 50px;
 }
 
+nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-family: var(--button-font);
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+
 .block-technologie {
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
+}
+
+.btn-contact {
+    font-family: var(--button-font);
+    padding: 8px 30px;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border-radius: 8px;
+    transition: all 0.8s;
 }
 
 
@@ -39,6 +64,10 @@ i:hover {
 
 .greet {
     font-size: 24px;
+}
+
+.logo {
+    max-height: 60px;
 }
 
 .container p,
@@ -77,8 +106,16 @@ i:hover {
 
 
 @media (max-width: 720px) {
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
     .hero {
-        padding: 40px 5px;
+        padding: 30px 5px;
     }
 
     .greet {
@@ -96,9 +133,22 @@ i:hover {
        margin: 0 auto;
     }
 
+
     .prodject-description {
-        border: none;
+        border: none !important;
     }
 
+    .btn-prodject {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .btn-prodject a {
+    padding: 8px 60px;
+    }
 
+    .logo {
+        max-height: 30px;
+    }
+
+    
 }
