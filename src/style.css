@@ -126,6 +126,8 @@ nav li {
 }
 
 
+
+
 .img-photo {
     filter: none !important;
     max-width: 200px;
@@ -234,6 +236,8 @@ nav li {
         font-size: 14px;
     }
 
+    
+
     .hero {
         padding: 30px 5px;
     }
@@ -323,4 +327,14 @@ nav li {
         margin-left: -10px;
         padding-left: 20px;
 }
+
+.img-photo {
+   max-width: 130px; 
+   padding-top: 60px;
+}
+
+.hiding-heding h2 {
+    font-size: 20px;
+}
+
 }
