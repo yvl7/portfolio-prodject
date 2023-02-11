@@ -16,12 +16,12 @@ h1,h2 {
     letter-spacing: 2px;
 }
 
-i {
+.block-technologie i {
     font-size: 30px;
     transition: font-size 1s;
 }
 
-i:hover {
+.block-technologie i:hover {
     font-size: 50px;
 }
 
@@ -38,6 +38,10 @@ nav ul {
 
 nav li {
     margin-right: 20px;
+}
+
+.contact-box {
+    background-color: #EBE7E7;
 }
 
 
@@ -62,12 +66,39 @@ nav li {
     padding: 100px 0px;
 }
 
+.heding-cv {
+    display: flex;
+    flex-direction: column;
+    padding:  20px 0px 0px 30px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.heding-cv h1,
+.heding-cv h2 {
+    
+}
+
 .greet {
     font-size: 24px;
 }
 
 .logo {
     max-height: 50px;
+}
+
+.max-width-wrapper {
+    display: block;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.wrapper-page-cv {
+    
+    background: linear-gradient(to right, var(--background-color) 67%, var(--text-color) 33%);
+    box-shadow: 11px 12px 32px 3px #00000040;
+    font-size: 20px;
+    
 }
 
 .container p,
@@ -81,13 +112,77 @@ nav li {
     transition: filter 0.3s; 
 }
 
+.cv-info-block {
+    box-shadow: 0px 0px 20px 0px #01417D1A;
+
+}
+
+.contact-icons {
+    list-style: none;
+}
+
+.contact-icons i {
+    column-width: 50px;
+}
+
+
+.img-photo {
+    filter: none !important;
+    max-width: 200px;
+}
+
+.ed-t {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.education-block {
+    line-height: 1;
+}
 
 .first-pr:hover img {
     filter: none;
 }
 
+.list-subtitle {
+    list-style: none;
+    font-family: var(--heding-font);
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.list-info {
+    list-style: square;
+    list-style-position: inside;
+    font-size: 16px;
+    line-height: 18px;
+}
+
 .second-pr:hover img {
     filter: none;
+}
+
+.subtitle-1 {
+    background-color: var(--text-color);
+    color: white;
+    font-family: var(--button-font);
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px 5px;
+}
+
+.subtitle-2 {
+    background-color: var(--text-color);
+    color: white;
+    font-family: var(--button-font);
+    font-size: 20px;
+    text-align: left;
+    width: 95%;
+    padding: 5px 0px 5px 20px;
+    margin: 10px 0px;
 }
 
 .thidth-pr:hover img {
@@ -103,6 +198,30 @@ nav li {
 .prodject-description a {
     text-align: center;
 }
+
+.project-tech-code {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.use-tech {
+    font-family: var(--button-font);
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.git-link a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 14px;
+    padding-right: 20px;
+    line-height: 12px;
+    opacity: 0.7;
+}
+
+
+
 
 
 @media (max-width: 760px) {
