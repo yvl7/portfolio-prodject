@@ -134,6 +134,7 @@ nav li {
 .ed-t {
     font-size: 18px;
     line-height: 20px;
+    
 }
 
 .education-block {
@@ -237,6 +238,10 @@ nav li {
         padding: 30px 5px;
     }
 
+    .heding-cv {
+        display: none;
+    }
+
     .greet {
         font-size: 22px;
     }
@@ -272,6 +277,16 @@ nav li {
         justify-content: flex-end;
     }
 
+    .photo-block-cv {
+        display: flex;
+        
+    }
+
+    .hiding-heding {
+        display: flex;
+        flex-direction: column;
+    }
+
 
     nav li {
         margin-right: 8px;
@@ -293,5 +308,19 @@ nav li {
         left: 5px;
     }
 
-   
+    .my-contact {
+        background-color: white;
+        
+    }
+
+    .cv-info-block {
+        box-shadow: none;
+    }
+
+    .subtitle-1 {
+        text-align: left;
+        width: 92%;
+        margin-left: -10px;
+        padding-left: 20px;
+}
 }
