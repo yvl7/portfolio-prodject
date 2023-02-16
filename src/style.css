@@ -61,6 +61,7 @@ nav li {
 }
 
 
+
 .hero {
     text-align: center;
     padding: 100px 0px;
@@ -96,7 +97,7 @@ nav li {
 .wrapper-page-cv {
     
     background: linear-gradient(to right, var(--background-color) 67%, var(--text-color) 33%);
-    box-shadow: 11px 12px 32px 3px #00000040;
+    box-shadow: 11px 12px 32px 3px #40040440;
     font-size: 20px;
     
 }
@@ -192,13 +193,13 @@ nav li {
     filter: none;
 }
 
-.double-prodject p,
-.double-prodject h3,
-.double-prodject h4 {
+.double-project p,
+.double-project h3,
+.double-project h4 {
     text-align: left;
 }
 
-.prodject-description a {
+.project-description a {
     text-align: center;
 }
 
@@ -262,16 +263,16 @@ nav li {
     }
 
 
-    .prodject-description {
+    .project-description {
         border: none !important;
 
     }
 
-    .btn-prodject {
+    .btn-project {
         display: flex !important;
         justify-content: center !important;
     }
-    .btn-prodject a {
+    .btn-project a {
     padding: 8px 60px;
     }
 
@@ -329,8 +330,8 @@ nav li {
 }
 
 .img-photo {
-   max-width: 130px; 
-   padding-top: 60px;
+   max-width: 160px; 
+   padding-top: 40px;
 }
 
 .hiding-heding h2 {
